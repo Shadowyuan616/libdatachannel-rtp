@@ -1,0 +1,3 @@
+D:/code/cpp/libdatachannel-rtp/build/CMakeFiles/sender.dir
+D:/code/cpp/libdatachannel-rtp/build/CMakeFiles/edit_cache.dir
+D:/code/cpp/libdatachannel-rtp/build/CMakeFiles/rebuild_cache.dir

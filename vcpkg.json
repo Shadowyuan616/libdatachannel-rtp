@@ -1,0 +1,13 @@
+{
+    "dependencies": [
+        {
+            "name": "libdatachannel",
+            "features": [
+                "ws",
+                "srtp",
+                "stdcall"
+            ]
+        },
+        "opencv"
+    ]
+}

@@ -1,0 +1,18 @@
+Detecting compiler hash for triplet x64-windows...
+-- Automatically setting %HTTP(S)_PROXY% environment variables to "127.0.0.1:7897".
+Compiler found: D:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.41.34120/bin/Hostx64/x64/cl.exe
+All requested packages are currently installed.
+Total install time: 1.4 us
+libdatachannel provides CMake targets:
+
+  # this is heuristically generated, and may not be correct
+  find_package(LibDataChannel CONFIG REQUIRED)
+  target_link_libraries(main PRIVATE LibDataChannel::LibDataChannel)
+
+opencv provides CMake targets:
+
+  # this is heuristically generated, and may not be correct
+  find_package(OpenCV CONFIG REQUIRED)
+  # note: 10 additional targets are not displayed.
+  target_link_libraries(main PRIVATE opencv_ml opencv_dnn opencv_core opencv_flann)
+
